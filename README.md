@@ -55,9 +55,10 @@ cd devbox
 
 3. Then create the SSL certs if you diden't allready
 
-To create the SSL certs i recommend [mkcert](https://github.com/FiloSottile/mkcert). It will create a locally-trustet development certificate. Just follow the installation instructions for your environment. Change yourdomain.com in the following command to your machine name or delete it if you want to stick with localhost.
+To create the SSL certs i recommend [mkcert](https://github.com/FiloSottile/mkcert). It will create a locally-trustet development certificate. Just follow the installation instructions for your environment. The first command requires elevated rights, as it adds the created local CA (Certificate Authority) to the trust store of your environment. Change yourdomain.com to your machine name or delete it if you want to stick with localhost.
 ```
-mkcert -cert-file httpd/certs/cert.pem -key-file httpd/certs/key.pem yourdomain.com devbox localhost 127.0.0.1 ::1 
+mkcert -install
+mkcert -cert-file httpd/certs/cert.pem -key-file httpd/certs/key.pem yourdomain.com devbox localhost 127.0.0.1 ::1
 ```
 
 4. Change the root password of the database
