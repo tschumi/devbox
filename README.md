@@ -5,7 +5,7 @@
 This is my personal little php development stack containig the following:
 
 * Apache 2.4.46
-* PHP 8.0-fpm
+* PHP 5.4.x-fpm
 * MariaDB 10.5.8
 
 It will serving you at the following ports:
@@ -74,20 +74,6 @@ If you want to keep the fast db connection check on index.php alive, don't forge
 ```
 docker-compose up
 ```
-
-## Different PHP versions
-
-Changing the PHP version is easy as 1, 2, 3. Just change the `PHP_TAG=` in the docker-compose.yml as desired. The following versions have been tested:
-
-* 8.0-fpm-alpine3.13
-* 7.4-fpm-alpine3.11
-* 7.3-fpm-alpine3.11
-* 7.2-fpm-alpine3.11
-* 7.1-fpm-alpine3.10
-* 5.6-fpm-alpine3.8
-
-If you're asking yourself, why i've choosen the 3.11 versions of 7.2, 7.3 and 7.4, it's because the newer versions do not support enchant, as described here:
-https://github.com/mlocati/docker-php-extension-installer#special-requirements
 
 ## Debugging
 
