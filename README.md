@@ -5,7 +5,7 @@
 This is my personal little php development stack containig the following:
 
 * Apache 2.4.46
-* PHP 8.0-fpm
+* PHP 8.1-fpm
 * MariaDB 10.7.3
 
 It will serving you at the following ports:
@@ -80,6 +80,7 @@ docker-compose up
 
 Changing the PHP version is easy as 1, 2, 3. Just change the `PHP_TAG=` in the docker-compose.yml as desired. The following versions have been tested:
 
+* 8.1-fpm-alpine3.15
 * 8.0-fpm-alpine3.15
 * 7.4-fpm-alpine3.15
 * 7.3-fpm-alpine3.15
