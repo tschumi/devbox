@@ -24,7 +24,7 @@ services:
     volumes:
       - ./public_html/:/var/www/html/
   mysql:
-    image: mariadb:10.5.8
+    image: mariadb:10.7.3
     restart: always
     networks:
       - frontend

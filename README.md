@@ -6,7 +6,7 @@ This is my personal little php development stack containig the following:
 
 * Apache 2.4.46
 * PHP 8.0-fpm
-* MariaDB 10.5.8
+* MariaDB 10.7.3
 
 It will serving you at the following ports:
 
