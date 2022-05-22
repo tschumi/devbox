@@ -10,8 +10,8 @@ services:
       - frontend
       - backend
     ports:
-      - "80:80"
-      - "443:443"
+      - "8000:80"
+      - "8443:443"
     volumes:
       - ./public_html/:/var/www/html/
   php:
