@@ -1,2 +1,3 @@
 httpd/certs/cert.pem
 httpd/certs/key.pem
+.DS_Store
