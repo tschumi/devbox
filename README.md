@@ -4,7 +4,7 @@
 
 This is my personal little php development stack containig the following:
 
-* Apache 2.4.46
+* Apache 2.4.53
 * PHP 8.1-fpm
 * MariaDB 10.7.3
 
