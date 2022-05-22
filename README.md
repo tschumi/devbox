@@ -11,7 +11,7 @@ This is my personal little php development stack containig the following:
 It will serving you at the following ports:
 
 * 80 (Website) - Example: https://localhost
-* 8080 (PhpMyAdmin) - Example: https://localhost:8080
+* 8080 (PhpMyAdmin) - Example: http://localhost:8080
 * 3306 (MySql DB)
 * 9003 (Xdebug)
 
