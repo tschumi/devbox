@@ -80,15 +80,12 @@ docker-compose up
 
 Changing the PHP version is easy as 1, 2, 3. Just change the `PHP_TAG=` in the docker-compose.yml as desired. The following versions have been tested:
 
-* 8.0-fpm-alpine3.13
-* 7.4-fpm-alpine3.11
-* 7.3-fpm-alpine3.11
-* 7.2-fpm-alpine3.11
+* 8.0-fpm-alpine3.15
+* 7.4-fpm-alpine3.15
+* 7.3-fpm-alpine3.15
+* 7.2-fpm-alpine3.12
 * 7.1-fpm-alpine3.10
 * 5.6-fpm-alpine3.8
-
-If you're asking yourself, why i've choosen the 3.11 versions of 7.2, 7.3 and 7.4, it's because the newer versions do not support enchant, as described here:
-https://github.com/mlocati/docker-php-extension-installer#special-requirements
 
 ## Debugging
 
