@@ -22,7 +22,7 @@ This is inspired by so many of you out there, as i looked at many repos and tuto
 
 ## Prequisites
 
-You need docker and docker-compose installed in your environment. If you're new to the docker world, don't worry. Visit:
+You need docker (> version 20.10.0) and docker-compose installed in your environment. If you're new to the docker world, don't worry. Visit:
 https://www.docker.com/get-started
 
 ## General information

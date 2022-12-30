@@ -23,6 +23,8 @@ services:
       - backend
     volumes:
       - ./public_html/:/var/www/html/
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   mysql:
     image: mariadb:10.7.3
     restart: always
